@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@600&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@600&display=swap');
+
+body {
+	background-color: black;
+	color: white;
+	padding: 1%;
+	font-size: 24pt;
+}
+#wrapper {
+	background-color: #333333;
+	border: 1% black solid;
+	padding: 1%;
+	width: 96%;
+}
+header {
+	background-color: #333333;
+	border: 1px black solid;
+	padding: 2%;
+	margin: 1%;
+}
+header img {
+	width: 12%;
+	float: left;
+}
+main {
+}
+nav {
+	border: none;
+	padding: 1em;
+	text-align: right;
+	float: right;
+}
+nav a {
+	font-style: italic;
+	padding: 0;
+}	
+nav a:hover {
+	color: #dd0000
+}
+h1 {
+	font-size: 2em;
+	font-family: "Grandstander";
+	font-weight: 600;
+	font-style: normal;
+	text-align: center;
+	padding: 0;
+	margin: 1em 0em 0em .5em;
+} 
+h2 {
+	font-family: Oswald;
+	text-align: center;
+	font-size: 1.25em;
+}
+h3 {
+	font-family: "Grandstander";
+	text-align: center;
+	font-size: 1.5em;
+	padding: 0 3em;
+	margin: 0;
+}
+h4 {
+	font-family: "Grandstander";
+	text-align: left;
+	font-size: 1.25em;
+}
+p {
+	color: white;
+	font-size: .55em;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+aside {
+	background-color: #333333;
+	border: 1px black solid;
+	padding: 1em;
+}
+footer {
+	background-color: #333333;
+	border: 1px black solid;
+	padding: 2em;
+	text-align: center;
+	font-size: 14px;
+}
+section {
+	background-color: #333333;
+	border: 1px black solid;
+	padding: 1em;
+	margin: 1em;
+	clear: both;
+}
+#heroimage img {
+	height: 20em;
+}
+.portfolio {
+	align-items: center;
+	width: 25%;
+	height: 50%;
+	padding: 1%;
+	float: left;
+}
+.portfolio img {
+	width: 100%;
+	height: 100%;
+}
+#project1 {
+	background-color: #333333;
+	margin: 2% 2% 2% 3%;
+}
+#project2 {
+	background-color: #333333;
+	margin: 2%;
+}
+#project3 {
+	background-color: #333333;
+	margin: 2% auto 2% 2%;
+}
+#aboutme {
+
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+@media only screen and (min-width: 1130px) {
+	#wrapper {
+	width: 1600px;
+	}
+}	
+	footer {
+		text-align: center;
+		}
+}
+@media only screen and (max-width: 1800px) {
+	body {
+		font-size: 16px;
+	}
+	footer {
+		text-align: center;
+		}
+}
+@media only screen and (max-width: 750px) {
+	nav a {
+		display: none;
+	}
+	#mobile {
+		display: block;
+	}
+	nav:hover a {
+		display: block;
+	}
+	body {
+		font-size: 16px;
+	}
+	footer {
+		text-align: center;
+	}
+}
+@media only screen and (min-width: 320px) and (max-width: 480px){
+	.portfolio {
+		float: none;
+		width: auto;
+	}
+}
